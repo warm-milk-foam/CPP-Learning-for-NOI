@@ -1,4 +1,3 @@
-```
 ChatGPT generated code to help with solution.
 
 #include <bits/stdc++.h>
@@ -68,13 +67,5 @@ int main() {
     cout << max(ans1, ans2) << "\n";
     return 0;
 }
-
-
-```
-I don't want to submit this because it would be cheating.  
-I'm trying so hard to understand but my brain is cooked.  
-When I solve it properly I will submit the solution.  
-
-This is a DP problem but the circular nature of it makes it more difficult.  
-So, we make two cases whether to eat rabbit 1 to make 2 different lines of rabbits for us to work with.  
+ 
 

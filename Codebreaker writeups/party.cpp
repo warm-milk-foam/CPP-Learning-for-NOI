@@ -1,4 +1,4 @@
-```
+I used chatgpt on this one cause im buns
 // https://codebreaker.xyz/problem/party
 #include <bits/stdc++.h>
 using namespace std;
@@ -41,7 +41,3 @@ int main () {
 	cout << count << "\n";
 	return 0;
 }
-```
-
-This is a BFS challenge where you stop searching when you reached deep enough.  
-I'm not submiting this solution too because again, its cheating. 

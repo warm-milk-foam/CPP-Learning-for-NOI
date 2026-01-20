@@ -23,7 +23,7 @@ Basically, all we have to do is:
 We will use a vector `numbers` to keep track of the numbers list, a vector `swap_sequence` to collate all the swaps, an int `numMoves` to count, and a bool `is_correct` to tell us when the while loop should finally stop.  
 
 Solution:
-```
+
 // https://codebreaker.xyz/problem/adjacentswaps
 #include <bits/stdc++.h>
 using namespace std;
@@ -57,5 +57,3 @@ int main () {
 		cout << swap_sequence[j] << endl;
 	}
 }
-```
-And there we go.
