@@ -44,4 +44,4 @@ int main () {
 ```
 
 This is a BFS challenge where you stop searching when you reached deep enough.  
-I'm not submiting this solution too because again, its cheating.  
+I'm not submiting this solution too because again, its cheating. 
