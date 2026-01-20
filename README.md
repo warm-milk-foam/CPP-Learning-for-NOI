@@ -1,3 +1,3 @@
 # C++-Learning-for-NOI
 
-This will be a place for me to put C++ notes and writeups about challenges I have solved
+This will be a place for me to put C++ solution about challenges I have solved on Codebreaker (mainly)
