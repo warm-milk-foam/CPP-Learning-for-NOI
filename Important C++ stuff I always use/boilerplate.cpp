@@ -1,8 +1,6 @@
 // The boiler starter code I should always use...
-// on mac, use g++ -std=gnu++17 boilerplate.cpp -O2 -o main && ./main
-#include <bits/stdcc+.h>
-using namespace std;
 
+#include <bits/stdc++.h>
 using namespace std;
 
 int main() {
