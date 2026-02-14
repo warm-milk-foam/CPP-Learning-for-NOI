@@ -20,6 +20,8 @@ Basically, all we have to do is:
 2) Keep track of the first number we need to swap with the second,  
 3) Count how many swaps we make.
 
+We just need to swap if the first number is the larger than the next, and keep doing it, eventually...
+
 We will use a vector `numbers` to keep track of the numbers list, a vector `swap_sequence` to collate all the swaps, an int `numMoves` to count, and a bool `is_correct` to tell us when the while loop should finally stop.  
 
 Solution:
