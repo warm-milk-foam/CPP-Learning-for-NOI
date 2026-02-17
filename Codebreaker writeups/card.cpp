@@ -13,6 +13,7 @@ int main() {
     moves.pop_back(); // remove '.'
 
     auto get_label = [&](int p) {
+        // dear diary, thi is what we call a 'function object' where '&' is  reference
         for (int i = (int)moves.size() - 1; i >= 0; i--) {
             if (moves[i] == 'A') {
                 if (p == m - 1) p = 0;

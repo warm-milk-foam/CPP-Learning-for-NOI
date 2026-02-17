@@ -15,7 +15,7 @@ int main() {
     for (int i = 0; i < n; i++) cin >> B[i];
     vector<pair<int,int>> diff(n);
     for (int i = 0; i < n; i++) {
-        diff[i] = {A[i] - B[i], i};
+        diff[i] = {A[i] - B[i], i}; // get the difference, and then the index so we can determine which student to dump
     }
 	
     sort(diff.rbegin(), diff.rend()); // today i learnt rbegin() and rend() make for descending

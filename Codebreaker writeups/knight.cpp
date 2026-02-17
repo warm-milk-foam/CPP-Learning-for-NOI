@@ -3,7 +3,8 @@ using namespace std;
 // https://codebreaker.xyz/problem/knightmoves
 int dx[8] = {2, 2, -2, -2, 1, 1, -1, -1};
 int dy[8] = {1, -1, 1, -1, 2, -2, 2, -2};
-
+// the list of possible moves on a grid assuming that knight starts in a random position
+// this aims to get all the 8 moves in terms of L shapes
 int main() {
     ios::sync_with_stdio(false);
     cin.tie(nullptr);
