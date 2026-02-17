@@ -5,7 +5,7 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-bool isBlocked(int r, int c, int kaiRow, int kaiCol) {
+bool isBlocked(int r, int c, int kaiRow, int kaiCol) { // based on kais position, check if he occupies these areas
     return r == kaiRow || c == kaiCol || r - c == kaiRow - kaiCol || r + c == kaiRow + kaiCol;
 }
 
@@ -29,7 +29,8 @@ int main() {
 		{0, -1},           {0, 1}, 
 		{1, -1}, {1, 0}, {1, 1}
 	};
-	
+	// the ches king moveset, as usual
+	// BFS 
     while (!q.empty()) {
 		auto [a, b] = q.front();
 		q.pop();
@@ -37,6 +38,7 @@ int main() {
 			int nx = a + moves[i].first;
 			int ny = b + moves[i].second;
 			if (!isBlocked(nx, ny, kai1, kai2) && 1 <= nx && nx <= n && 1 <= ny && ny <= n  && !visited[nx][ny]) {
+				// if its not blocked or out of bounds, go into that square
 				q.push({nx, ny});
 				visited[nx][ny] = true;
 			}

@@ -1,4 +1,4 @@
-ChatGPT generated code to help with solution.
+// ChatGPT generated code because I suck.
 
 #include <bits/stdc++.h>
 using namespace std;
@@ -67,5 +67,5 @@ int main() {
     cout << max(ans1, ans2) << "\n";
     return 0;
 }
- 
+// i sstill dont get this challenge ngl.
 
