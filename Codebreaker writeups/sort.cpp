@@ -37,6 +37,6 @@ int alt() {
 	for (long long i = 0; i < N; i++) cout << numbers[i] << " ";
 	cout << '\n';
 }	
-// original solution...
+// original solution... almost full solves but task 4 
 
-// this challenge is trickery because they want you to know that long long isnt enough
+// this challenge is trickery because they want you to know that long long isnt enough. instead, you're meant to use string and compare length/lex order
