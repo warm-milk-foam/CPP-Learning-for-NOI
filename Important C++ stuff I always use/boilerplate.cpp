@@ -1,5 +1,3 @@
-// The boiler starter code I should always use...
-
 #include <bits/stdc++.h>
 using namespace std;
 
