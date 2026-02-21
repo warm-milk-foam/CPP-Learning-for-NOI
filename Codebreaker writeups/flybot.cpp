@@ -20,8 +20,8 @@ int main () {
 				continue;
 			}
 			long long ways = 0;
-			if (i > 0) ways += dp[i - 1][j];
-			if (j > 0) ways += dp[i][j - 1];
+			if (i > 0) ways += dp[i - 1][j]; // check row
+			if (j > 0) ways += dp[i][j - 1]; // check column
 				
 			dp[i][j] = ways % 1000000007;
 		}

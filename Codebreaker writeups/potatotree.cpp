@@ -23,7 +23,7 @@ int main() {
     int count = 0;
 
     for (int i = 0; i < trees; i++) {
-        if (seen.find(tree_list[i]) == seen.end()) {
+        if (seen.find(tree_list[i]) == seen.end()) { // basically, its a have we seen this item before?
             seen.insert(tree_list[i]);
             count++;
         }

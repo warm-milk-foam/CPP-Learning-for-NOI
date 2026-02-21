@@ -50,7 +50,7 @@ int main() {
                 int ny = y + dy;
                 int nx = x + dx;
 
-                if (ny >= 0 && ny < Y && nx >= 0 && nx < X && field[ny][nx] == 1) {
+                if (ny >= 0 && ny < Y && nx >= 0 && nx < X && field[ny][nx] == 1) { // if it doesn't exceed boundaries and the spot is a grass
                     field[ny][nx] = 2;
                     q.push({ny, nx});
                 }
